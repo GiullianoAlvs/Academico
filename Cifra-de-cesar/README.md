@@ -1,18 +1,12 @@
-## Getting Started
+## Cifra de César
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Cifra de César, também conhecida como cifra de troca, código de César ou troca de César, é uma das mais simples e conhecidas técnicas de criptografia. É um tipo de cifra de substituição na qual cada letra do texto é substituída por outra, que se apresenta no alfabeto abaixo dela um número fixo de vezes. Por exemplo, com uma troca de três posições, A seria substituído por D, B se tornaria E, e assim por diante. O nome do método é em homenagem a Júlio César, que o usou para se comunicar com os seus generais.[1]
 
-## Folder Structure
+O processo de criptografia de uma cifra de César é frequentemente incorporado como parte de esquemas mais complexos, como a cifra de Vigenère, e continua tendo aplicações modernas, como no sistema ROT13. Como todas as cifras de substituição monoalfabéticas, a cifra de César é facilmente decifrada e na prática não oferece essencialmente nenhuma segurança na comunicação.
 
-The workspace contains two folders by default, where:
+# Funcionamento do código
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Possuímos dois processos, a codificação e a decodificação. Para codificarmos, basta inserirmos a mensagem e informar a quantidade de deslocamento. Após isso, o programa retornará com a mensagem cifrada.
+Caso queira decifrar a mensagem, basta fazer o mesmo caminho, inserir a mensagem codificada, inserir a quantidade de deslocamento para decifrar a mensagem.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+> Obs: Tanto para codificar a mensagem, quanto para decodificar, necessitamos inserir números positivos e inteiros.
