@@ -4,7 +4,7 @@ Cifra de César, também conhecida como cifra de troca, código de César ou tro
 
 O processo de criptografia de uma cifra de César é frequentemente incorporado como parte de esquemas mais complexos, como a cifra de Vigenère, e continua tendo aplicações modernas, como no sistema ROT13. Como todas as cifras de substituição monoalfabéticas, a cifra de César é facilmente decifrada e na prática não oferece essencialmente nenhuma segurança na comunicação.
 
-# Funcionamento do código
+### Funcionamento do código
 
 Possuímos dois processos, a codificação e a decodificação. Para codificarmos, basta inserirmos a mensagem e informar a quantidade de deslocamento. Após isso, o programa retornará com a mensagem cifrada.
 Caso queira decifrar a mensagem, basta fazer o mesmo caminho, inserir a mensagem codificada, inserir a quantidade de deslocamento para decifrar a mensagem.
