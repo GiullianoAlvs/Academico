@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Controle de Demanda de Estoque</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index_style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Controle de Demanda de Estoque</h1>
+        <form action="/gerar-relatorio" method="post">
+            <label for="validade">Escolha a validade dos produtos:</label>
+            <select id="validade" name="validade" class="input">
+                <option value="30">30 dias</option>
+                <option value="60">60 dias</option>
+                <option value="90">90 dias</option>
+                <option value="120">120 dias</option>
+            </select>
+            <button class="button" type="submit">Gerar Relatório</button>
+        </form>
+    </div>
+    <script src="{{ url_for('static', filename='js/index_script.js') }}"></script>
+</body>
+</html>
